@@ -19,7 +19,7 @@ carro.cor = "azul";
 
 if (carro.preco) {
     console.log(`esse carro vale ${carro.preco}`)}
-    else{ carro.preco = 7000000
+    else{ carro.preco = $7000000
         console.log(`este é o preco unitario a vista ${carro.preco}`)
     }
 

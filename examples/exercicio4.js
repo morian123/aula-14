@@ -13,12 +13,13 @@ carro.descrever = function () {
 carro.ano = 2023;
 carro.cor = "azul";
 
-function iterar(carro) {
+function iterar (){
     for (let chave in carro) {
         console.log(chave, carro[chave])
     }
 }
-iterar(carro);
+
+iterar();
 
 // exibindo cada chave e valor no console.
 // Use o objeto carro como argumento para testar a função.
